@@ -1,0 +1,16 @@
+/********************Header******************/
+header{
+    height: 200px;
+    background-color: bisque;
+}
+.socials{
+    margin-top: 70px;
+}
+.phone{
+    margin-top: 15px;
+    margin-left: 98px;
+    width: 100%;
+}
+.email{
+    margin-left: 131px;
+}
