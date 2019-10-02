@@ -1,7 +1,9 @@
 /********************Header******************/
 header{
+	width: 1920px;
     height: 200px;
     background-color: bisque;
+    margin-left: -15px;
 }
 .socials{
     margin-top: 70px;
@@ -31,3 +33,12 @@ header{
 .cabinet{
 	margin-top: 20px;
 }
+.nav{
+	width: 1920px;
+	margin-left: -15px;
+	background-color: aqua;
+}
+.nav-item{
+	padding-left: 140px;
+}
+
