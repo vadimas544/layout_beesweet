@@ -14,3 +14,20 @@ header{
 .email{
     margin-left: 131px;
 }
+.logo{
+	margin-top: 20px;
+}
+.text-logo{
+	margin-top: 15px;
+	font-size: 16px;
+}
+.cart{
+	margin-top: 50px;	
+}
+.cart button{
+	width: 94px;
+}
+
+.cabinet{
+	margin-top: 20px;
+}
