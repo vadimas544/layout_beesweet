@@ -35,10 +35,16 @@ header{
 }
 .nav{
 	width: 1920px;
+	height: 80px;
 	margin-left: -15px;
 	background-color: aqua;
 }
+.nav ul{
+	margin-left: 100px;
+}
 .nav-item{
-	padding-left: 140px;
+	margin-left: 195px;
+	margin-top: 20px;
+
 }
 
