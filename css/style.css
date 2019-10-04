@@ -97,3 +97,47 @@ header{
 	margin: 10px auto;
 }
 /**************************ENDADVANTAGES*************/
+
+/**************************ORDERS*************/
+.orders{
+	margin-top: 10px;
+	background-color: #c2c2c2;
+}
+#slider{
+	width: 512px;
+	height: 85px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+#line{
+	width: 896px;
+	position: relative;
+	transition: all ease 1s;
+	left: 0;
+}
+#line img{
+	float: left;
+}
+#line::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#slider-left{
+	margin-left: 77px;
+	margin-top: -140px;
+}
+#slider-right{
+	margin-top: -140px;
+	margin-left: 630px;
+}
+/**************************ENDORDERS*************/
+
+/**************************MAILING*************/
+
+.mailing{
+	margin-top: 10px;
+	background-color: #c2c2c2;
+}
+
+/**************************ENDMAILING*************/

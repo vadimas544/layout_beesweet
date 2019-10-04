@@ -181,14 +181,57 @@
                         </div>
                      </div>
                 </div> 
+            </div>          
+    </div> 
+    <!---END ADVANTAGES-->
+
+    <!---ORDERS------------------------------------>
+    
+    <div class="orders">
+        <div class="text-center mt-3">
+            <h2>ORDERS TOP</h2>
+        </div>
+        <div class="carousel-orders">
+            <div class="row">
+                <div id="slider">
+                    <div id="line">
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+
+                        <img src="img/orders/orders_cake.jpg" alt="orders">
+                    </div>
+                </div>
             </div>
-              
+            <button id="slider-left" class="btn btn-default">LEFT</button>
+            <button id="slider-right" class="btn btn-default">RIGHT</button>
+        </div>
     </div>
 
 
-     
-        
-    <!---END ADVANTAGES-->
+    <!---END ORDERS----------------------------------->
+
+    <!-------------------------MAIL ---------------------------------->
+    <div class="mailing">
+        <div class="row">
+            <div class="col">
+                <div class="text-center mt-3">
+                    <h2>MAILING</h2>
+                </div>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <!-------------------------END MAIL ---------------------------------->
 </div><!-- END CONTAINER-FLUID -->
 
 <!-- Optional JavaScript -->
@@ -196,6 +239,20 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+document.getElementById('slider-left').onclick = sliderLeft;
+
+var left = 0;
+
+function sliderLeft(){
+    var line = document.getElementById('line');
+    left = left - 128;
+    if(left < -384){
+        left = 0;
+    }
+    line.style.left = left+'px';
+}
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>
