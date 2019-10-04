@@ -88,5 +88,12 @@ header{
 /**************************ADVANTAGES*************/
 .advantages{
 	margin-top: 10px;
+	background-color: #c2c2c2;
+}
+.adv-cards{
+	margin-top: 20px;
+}
+.card{
+	margin: 10px auto;
 }
 /**************************ENDADVANTAGES*************/
